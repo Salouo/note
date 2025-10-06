@@ -40,3 +40,19 @@
 
    
 
+## 2. Git commit types
+
+| Type     | Purpose                                 | Example                                  |
+| -------- | --------------------------------------- | ---------------------------------------- |
+| feat     | New feature                             | `feat(api): add /v1/upload endpoint`     |
+| fix      | Bug fix                                 | `fix(parser): handle empty line`         |
+| docs     | Docs / Comments                         | `docs(readme): add quickstart`           |
+| style    | Code formatting (no logical changes)    | `style: format with black`               |
+| refactor | Refactor (no new features, no bug fixs) | `refactor(core): simplify loop`          |
+| perf     | Performance improvements                | `perf(db): reduce query count`           |
+| test     | Tests / Tests code                      | `test: add unit tests for scorer`        |
+| build    | Build / packaging / release scripts     | `build: add uv lock file`                |
+| ci       | CI/CD configuration                     | `ci: cache pip wheels`                   |
+| deps     | Dependency upgrade                      | `deps: bump numpy to 2.0`                |
+| chore    | Chore / misc (no functional impact)     | `chore: rename project folders`          |
+| revert   | Revert commit                           | `revert: feat(api): add upload endpoint` |

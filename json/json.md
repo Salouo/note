@@ -135,12 +135,12 @@ print(json_s)
 We can also use `json.dumps()` to serialize Python dictionaries into separate JSON objects.
 
 ```python
-with open('data.json', 'w') as f:
+with open('data.jsonl', 'w') as f:
     f.write(json.dumps(person1))
     f.write(json.dumps(person2))
 ```
 
-`data.jsonl` **(Notice that we should us `.jsonl` to indicate that this file contains several JSON objects)**:
+`data.jsonl` **(Notice that we should use `.jsonl` to indicate that this file contains several JSON objects)**:
 
 ```text
 {"Name": "Jack", "Tel": ["10095", "87321"], "Gender": "male", "Age": 30, "Is_Only": true}
